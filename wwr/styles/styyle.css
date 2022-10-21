@@ -1,17 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Roboto+Mono:wght@100&display=swap');
+
 #content {
-    max-width: 1600px;
     margin: 0 auto;
+    max-width: 1600px;
+    
 }
+
 .home_title {
     color: black;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: black;
+}
+h2 {
+    margin: 0;
 }
 nav a {
     text-align: center;
     text-decoration: none; 
     color: white;
+    padding: 35px;
 }
 #hero_msg h1{
     text-align: center; 
@@ -30,7 +40,11 @@ main section {
     height: 725px;
 }
 body {
-    background-color: #fcfbfb; 
+    background-color: #fcfbfb;
+    font-family: "Coming Soon" ;
+    font-size: 22px;
+    margin: 0;
+    padding: 0; 
 }
 header {
     background-color: #B9A889; 
@@ -39,15 +53,14 @@ nav a:hover {
     background-color: black; 
     color: white;
 }
-.book {
+.book ,.join{
     background-color: #D0CCC7; 
     text-decoration: none;
     color: white;
-}
-.join {
-    background-color: #D0CCC7; 
-    text-decoration: none;
-    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: white; 
@@ -61,17 +74,23 @@ nav a:hover {
     background-color: #9C8E82; 
 }
 .msg {
-    background-color: #B9A889; 
+    background-color: #B9A889;
+    padding: 35px;
+    line-height: 1.5em
+    
 }
 footer {
     background-color: #B9A889; 
     color: white;
+    padding: 25px 50px;
 }
 #hero_img {
     width: 100%;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
+
 }
 .logo {
     width: 80px;
@@ -79,6 +98,7 @@ footer {
 footer a {
     text-decoration: none;
     color: white;
+    margin-top: 200px;
 }
 footer a:hover {
     color: white;
@@ -88,6 +108,8 @@ footer a:hover {
 }
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer p {
     font-size: 1.2em;
@@ -95,3 +117,25 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }   
+#logo_link {
+    padding-top: 5px;
+
+}
+footer .social img {
+    padding-top: 15px;
+}  
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}  
+.card_img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
